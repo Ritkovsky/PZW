@@ -1,0 +1,104 @@
+*
+{
+    margin:0px;
+}
+.top-line
+{
+    width: 100%;
+    height: 10px;
+    background-color: #0693e3;
+}
+.nav
+{
+    display: flex;
+    width: 100%;
+    height: 380px;
+    background-image: url("background.jpg");
+    background-position: 0.001px;
+}
+.logo
+{
+    position: absolute;
+    right: 1px;
+    height: 380px;
+    width: 380px;
+}
+.slideshow
+{
+    display: none;
+    width: 60%;
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-top: 70px;
+    height: 240px;
+    border-radius: 10px;
+    background-color: black;
+}
+.slideshow h2
+{
+    color: aliceblue;
+    text-align: center;
+    margin-top: 100px;
+}
+.menu
+{
+    display: flex;
+    flex-direction: row;
+    flex: 1;
+    justify-content: center;
+    width: 100%;
+    height: 90px;
+    background-color: #1c506e;
+}
+.menu-button
+{
+    width: 10%;
+    margin-left: 2px;
+    margin-right: 2px;
+    margin-top: 5px;
+    height: 80px;
+    border:  none;
+    background-color: #0693e3;
+    transition: 1s;
+    border-radius: 5px;
+    font-size: 30px;
+}
+.menu-button:hover
+{
+    background-color: aquamarine;
+    transition: 1s;
+}
+.main
+{
+    display: flex;
+    flex-direction: row;
+    flex: 1;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: white;
+    width: 100%;
+    height: 600px
+}
+.info-card
+{
+    background-color: yellow;
+    width: 20%;
+    margin: 20px;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+.main h1
+{
+    text-align: center;
+}
+.footer
+{
+    width: 100%;
+    height: 120px;
+    background-color: #0693e3;
+}
+.footer h1
+{
+    
+    text-align: center;
+}
